@@ -1,0 +1,14 @@
+.lead {
+    width: 100%;
+    /*max-width: 928px;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lead:last-child {
+
+}
