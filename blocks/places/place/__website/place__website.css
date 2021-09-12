@@ -1,0 +1,8 @@
+.place__website {
+    max-width: 456px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 32px;
+    padding-bottom: 48px;
+}
