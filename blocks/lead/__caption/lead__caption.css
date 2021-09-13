@@ -11,3 +11,21 @@
     text-align: start;
 }
 
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
+
+ @media screen and (max-width: 1280px) {
+     .lead__caption {
+         align-self: baseline;
+     }
+ }
+

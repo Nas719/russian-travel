@@ -10,9 +10,16 @@
 .header__lang-link:first-child {
      text-decoration-line: underline;
      width: 30px;
-    margin-right: 18px;
+     margin-right: 18px;
  }
 
 .header__lang-link:last-child {
     width: 29px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

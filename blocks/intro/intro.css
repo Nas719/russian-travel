@@ -1,7 +1,15 @@
 .intro {
     max-width: 690px;
+    min-width: 1024px;
     display: flex;
     flex-direction: column;
     margin-top: 92px;
     padding-left: 48px;
 }
+
+/*@media screen and (max-width: 1280px){*/
+/*    .intro {*/
+/*        padding-left: 148px;*/
+/*        width: 690px;*/
+/*    }*/
+/*}*/

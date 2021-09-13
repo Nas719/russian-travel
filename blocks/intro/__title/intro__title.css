@@ -6,3 +6,9 @@
     color: #FFFFFF;
     margin: 0 0 40px 0;
 }
+
+/*@media screen and (max-width: 768px) {*/
+/*    .intro__title {*/
+/*        !*width: 720px;*!*/
+/*    }*/
+/*}*/

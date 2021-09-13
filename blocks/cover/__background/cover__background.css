@@ -1,9 +1,9 @@
 .cover__background {
-    background-image: url(/images/cover-trains.jpg);
-    min-width: 1184px;
-    max-width: 1184px;
-    min-height: 740px;
-    max-height: 740px;
+    /*min-width: 1184px;*/
+    /*max-width: 1184px;*/
+    /*min-height: 740px;*/
+    /*max-height: 740px;*/
+    width: 1024px;
     background-size: cover;
     background-position: center;
     justify-content: center;
