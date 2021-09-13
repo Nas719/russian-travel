@@ -9,7 +9,12 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    opacity: 0.3;
+    opacity: 0.8;
     z-index: 1;
     margin: auto;
+}
+
+.cover__background:hover {
+    opacity: 0.3;
+    cursor: pointer;
 }

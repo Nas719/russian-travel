@@ -1,5 +1,8 @@
+.lead__container {
+    margin-bottom: 0;
+}
+
 .lead__container:hover {
     color: rgba(47, 128, 237, 0.7);
     transition: opacity 3s ease-in;
-    margin-bottom: 0;
 }
