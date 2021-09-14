@@ -6,9 +6,15 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 8px;
+    max-width: 160px;
+    padding-top: 8px;
     margin-bottom: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
     text-align: start;
+    align-self: flex-start;
 }
 
 @media screen and (max-width: 320px) {
@@ -25,7 +31,7 @@
 
  @media screen and (max-width: 1280px) {
      .lead__caption {
-         align-self: baseline;
+         align-self:  flex-start;
      }
  }
 

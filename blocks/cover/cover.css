@@ -1,7 +1,28 @@
 .cover {
-    position: relative;
-    min-width: 1024px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 92px auto 0;
+    max-width: 1184px;
 }
+
+@media screen and (max-width: 1024px){
+    .cover {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: 90px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 66px;
+        max-width: 320px;
+    }
+}
+

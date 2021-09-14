@@ -1,9 +1,5 @@
 .cover__background {
-    /*min-width: 1184px;*/
-    /*max-width: 1184px;*/
-    /*min-height: 740px;*/
-    /*max-height: 740px;*/
-    width: 1024px;
+    max-width: 1184px;
     background-size: cover;
     background-position: center;
     justify-content: center;
@@ -16,5 +12,30 @@
 
 .cover__background:hover {
     opacity: 0.3;
+    transition: opacity 0.4s ease;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__background {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__background {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background {
+        max-width: 100%;
+    }
 }

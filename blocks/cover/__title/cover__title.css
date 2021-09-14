@@ -2,9 +2,33 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 106%;
     text-align: center;
     color: #FFFFFF;
     margin: 0;
     max-width: 560px;
+}
+
+.cover__title:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        max-width: 288px;
+        max-height: 70px;
+        font-size: 32px;
+        line-height: 109%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .cover__title {
+        max-width: 288px;
+        max-height: 70px;
+        font-size: 32px;
+        line-height: 112%;
+        margin: 0;
+    }
 }
