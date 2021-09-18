@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .place__paragraphs {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__paragraphs {
         margin-left: 16px;
