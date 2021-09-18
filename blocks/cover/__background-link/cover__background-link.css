@@ -16,6 +16,7 @@
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
+    margin: auto;
 }
 
 .cover__background-link:hover:after {
@@ -39,6 +40,8 @@
     .cover__background-link {
         min-height: 740px;
         width: 100%;
+        margin-right: 48px;
+        margin-left: 48px;
     }
 }
 
