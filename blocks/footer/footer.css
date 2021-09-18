@@ -1,7 +1,6 @@
 .footer {
     margin-right: 48px;
     margin-left: 48px;
-    /*padding-top: 92px;*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,9 +9,9 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-        margin-right: 24px;
-        margin-left: 24px;
-        /*padding-top: 88px;*/
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 16px;
     }
 }
 
@@ -21,5 +20,6 @@
         flex-direction: column;
         padding-bottom: 24px;
         align-items: flex-start;
+        margin-left: 16px;
     }
 }

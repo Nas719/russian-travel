@@ -4,6 +4,13 @@
     margin-left: auto;
 }
 
+@media screen and (max-width: 767px) {
+    .footer__author {
+        margin-left: 0;
+        align-items: flex-start;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__author {
         margin-left: 0;
