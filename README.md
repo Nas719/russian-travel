@@ -4,7 +4,7 @@
 **Интро**
 
 На сайте можно найти информацию о том, как красиво путешествовать в России.
-* [Ссылка на макет](http://localhost:63342/russian-travel/index.html?_ijt=lj4qluksml0k5nrrngmjguqpvf&_ij_reload=RELOAD_ON_SAVE)
+* [Ссылка на макет](https://nas719.github.io/russian-travel/)
 
 Основные технологии, изученные и использованные в проекте:
 
