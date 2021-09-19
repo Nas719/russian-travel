@@ -11,6 +11,7 @@
     text-decoration: none;
     cursor: pointer;
     margin: auto;
+    background-position: center;
 }
 
 .cover__background-link:hover:after {
@@ -49,7 +50,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     .cover__background-link {
         min-height: 380px;
     }

@@ -6,7 +6,6 @@
     min-width: 288px;
     max-width: 550px;
     min-height: 40px;
-    max-height: 72px;
     margin: 0 auto 64px;
 }
 
@@ -16,17 +15,15 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .lead__subtitle {
-        font-size: 16px;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-bottom: 40px;
+        font-size: 25px;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
     .lead__subtitle {
         font-size: 16px;
+        margin-bottom: 40px;
     }
 }

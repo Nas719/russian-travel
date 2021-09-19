@@ -5,4 +5,10 @@
     line-height: 12px;
     letter-spacing: 2px;
     color: #AAAAAA;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-bottom: 12px;
+    text-transform: uppercase;
 }
