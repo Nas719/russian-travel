@@ -17,28 +17,9 @@
     }
 }
 
-/*@media screen and (max-width: 768px) {*/
-/*    .places__title {*/
-/*        padding-left: ;*/
-/*    }*/
-/*}*/
-
 @media screen and (max-width: 767px) {
     .places__title {
-        font-size: 32px;
         line-height: 109%;
         padding-left: 16px;
-    }
-}
-
-@media screen and (max-width: 670px) {
-    .places__title {
-        padding-left: 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .places__title {
-       padding-left: 16px;
     }
 }
